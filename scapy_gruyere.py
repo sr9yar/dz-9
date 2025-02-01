@@ -1,11 +1,5 @@
 from scapy.all import * 
 
-# INTERFACE="en0"
-# packets = sniff(iface=INTERFACE, count=20)
-# print(packets[0].show())
-
-
-
 DOMAIN="google-gruyere.appspot.com"
 INSTANCE_ID="472666335020487989751201647380414278590"
 PATH=f"/{INSTANCE_ID}"

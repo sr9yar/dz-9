@@ -19,7 +19,8 @@ xss_links = set()
 XSS_TEST = {
     "?<script>document.write('<h1>hacked</h1>')</script>",
     "&<script>document.write('<h1>hacked</h1>')</script>",
-    "<script>document.write('<h1>hacked</h1>')</script>"
+    "<script>document.write('<h1>hacked</h1>')</script>",
+    "<img src=\"nonexistent.jpg\" onerror=\"alert('XSS')\">"
   }
 
 

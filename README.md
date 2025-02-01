@@ -21,6 +21,18 @@ python run.py
 ```
 
 
+
+
+## Scripts 
+
+
+Перехват трафика
+```
+python scapy_sniffs_traffic.py
+```
+
+
+
 ## Initial project setup 
 
 ```
@@ -36,3 +48,6 @@ pip freeze > requirements.txt
 playwright install
 
 ```
+
+
+
