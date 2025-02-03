@@ -16,7 +16,9 @@ pip install -r requirements.txt
 
 ```
 
-python run.py
+python scapy_sniffs_traffic.py
+python scapy_gruyere.py
+python xss_scan.py
 
 ```
 
@@ -26,10 +28,29 @@ python run.py
 ## Scripts 
 
 
-Перехват трафика
+### Перехват трафика
 ```
 python scapy_sniffs_traffic.py
 ```
+
+
+### Запрос к gruyere
+```
+python scapy_gruyere.py
+```
+
+
+### Сканирование и проверка уязвимостей
+```
+python xss_scan.py
+```
+
+
+### Запрос к gruyere, содержащий уязвимость
+```
+python request_with_xss.py
+```
+
 
 
 
