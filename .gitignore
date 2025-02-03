@@ -172,3 +172,5 @@ cython_debug/
 
 screenshots/*
 !screenshots/.gitkeep
+
+.DS_Store
